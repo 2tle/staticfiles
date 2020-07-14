@@ -1,0 +1,66 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    font-family: 'Do Hyeon', sans-serif;
+}
+.profile-img {
+    width : 8em;
+    height: 8em;
+    border-radius:4em;
+    margin : 1em;
+}
+.top-profile {
+    position: -webkit-sticky; /* 사파리 브라우저 지원 */
+    position: sticky;
+    top:0;
+    display:flex;
+    align-items: center;
+    width:100%;
+    height:20vh;
+    text-align:left;
+    background-color : #545454;
+    opacity:1;
+}
+.profile-title {
+    color : white;
+    font-size : 4em;
+}
+.asdf {
+    font-size :60%;
+}
+body {
+    background-image : url('Vack.jpg');
+}
+.container {
+    background-color : #42403C;
+    width:100%;
+    padding : 2rem;
+    color : white;
+}
+
+.half {
+    width : 100%;
+    background: #c1c1c1;
+}
+
+.am-title {
+    font-size : 3em;
+}
+.am-desc {
+    font-size : 1.8em;
+}
+
+pinktag {
+    color:pink;
+}
+
